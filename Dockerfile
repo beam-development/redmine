@@ -1,4 +1,4 @@
-FROM redmine:3.3
+FROM redmine:3.4
 
 COPY plugins/ /usr/src/redmine/plugins/
 
