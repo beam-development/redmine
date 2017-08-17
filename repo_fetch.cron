@@ -1,0 +1,3 @@
+# Run repo fetch every 10 minutes
+*/10 * * * * /usr/src/redmine/bin/rails runner "Repository.fetch_changesets" -e production >> /var/log/cron.log 2>&1
+#
