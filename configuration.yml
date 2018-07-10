@@ -2,6 +2,6 @@ production:
   email_delivery:
     delivery_method: :async_smtp
     async_smtp_settings:
-      address: archway.mill.co.uk
+      address: smtp.themill-r53.com
       port: 25
       domain: mill.co.uk
